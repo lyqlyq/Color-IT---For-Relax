@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B447364522C376DB0006F4B6 /* BannerHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B447363B22C376DA0006F4B6 /* BannerHomeController.m */; };
+		B447364622C376DB0006F4B6 /* BannerHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B447363F22C376DA0006F4B6 /* BannerHomeController.xib */; };
+		B447364722C376DB0006F4B6 /* PalettesHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B447364022C376DA0006F4B6 /* PalettesHomeViewController.xib */; };
+		B447364822C376DB0006F4B6 /* PalettesPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B447364122C376DA0006F4B6 /* PalettesPushManager.m */; };
+		B447364922C376DB0006F4B6 /* PalettesHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B447364222C376DB0006F4B6 /* PalettesHttpTool.m */; };
+		B447364A22C376DB0006F4B6 /* PalettesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B447364322C376DB0006F4B6 /* PalettesHomeViewController.m */; };
+		B447364C22C376E40006F4B6 /* AppDelegatePalettesPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = B447364B22C376E40006F4B6 /* AppDelegatePalettesPush.swift */; };
 		B966DCD91EA47F6900A188FD /* Food_big_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B966DC0A1EA47F6900A188FD /* Food_big_1.png */; };
 		B966DCDA1EA47F6900A188FD /* Food_big_10.png in Resources */ = {isa = PBXBuildFile; fileRef = B966DC0B1EA47F6900A188FD /* Food_big_10.png */; };
 		B966DCDB1EA47F6900A188FD /* Food_big_11.png in Resources */ = {isa = PBXBuildFile; fileRef = B966DC0C1EA47F6900A188FD /* Food_big_11.png */; };
@@ -712,6 +719,19 @@
 /* Begin PBXFileReference section */
 		28799FE5D97E4C6D5764DFEE /* Pods_coloringbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coloringbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E0C3780710FEF0106159AA /* Pods-coloringbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coloringbook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coloringbook/Pods-coloringbook.debug.xcconfig"; sourceTree = "<group>"; };
+		B447363A22C376D90006F4B6 /* coloringbook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coloringbook-Bridging-Header.h"; sourceTree = "<group>"; };
+		B447363B22C376DA0006F4B6 /* BannerHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerHomeController.m; sourceTree = "<group>"; };
+		B447363C22C376DA0006F4B6 /* PalettesHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalettesHttpTool.h; sourceTree = "<group>"; };
+		B447363D22C376DA0006F4B6 /* PalettesPushManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalettesPushManager.h; sourceTree = "<group>"; };
+		B447363E22C376DA0006F4B6 /* BannerHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerHomeController.h; sourceTree = "<group>"; };
+		B447363F22C376DA0006F4B6 /* BannerHomeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerHomeController.xib; sourceTree = "<group>"; };
+		B447364022C376DA0006F4B6 /* PalettesHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PalettesHomeViewController.xib; sourceTree = "<group>"; };
+		B447364122C376DA0006F4B6 /* PalettesPushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalettesPushManager.m; sourceTree = "<group>"; };
+		B447364222C376DB0006F4B6 /* PalettesHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalettesHttpTool.m; sourceTree = "<group>"; };
+		B447364322C376DB0006F4B6 /* PalettesHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalettesHomeViewController.m; sourceTree = "<group>"; };
+		B447364422C376DB0006F4B6 /* PalettesHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalettesHomeViewController.h; sourceTree = "<group>"; };
+		B447364B22C376E40006F4B6 /* AppDelegatePalettesPush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegatePalettesPush.swift; sourceTree = "<group>"; };
+		B447364D22C37C390006F4B6 /* coloringbook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = coloringbook.entitlements; path = coloringbook/coloringbook.entitlements; sourceTree = "<group>"; };
 		B966DC0A1EA47F6900A188FD /* Food_big_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Food_big_1.png; sourceTree = "<group>"; };
 		B966DC0B1EA47F6900A188FD /* Food_big_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Food_big_10.png; sourceTree = "<group>"; };
 		B966DC0C1EA47F6900A188FD /* Food_big_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Food_big_11.png; sourceTree = "<group>"; };
@@ -2501,6 +2521,18 @@
 				FAFFC3C81DEC6629002DB2BE /* SettingsNavigationController.swift */,
 				FAFD6F421DE37357002E4493 /* SettingsTableViewController.swift */,
 				FAFD6F441DE38EB4002E4493 /* ShopViewController.swift */,
+				B447363E22C376DA0006F4B6 /* BannerHomeController.h */,
+				B447363B22C376DA0006F4B6 /* BannerHomeController.m */,
+				B447363F22C376DA0006F4B6 /* BannerHomeController.xib */,
+				B447364422C376DB0006F4B6 /* PalettesHomeViewController.h */,
+				B447364322C376DB0006F4B6 /* PalettesHomeViewController.m */,
+				B447364022C376DA0006F4B6 /* PalettesHomeViewController.xib */,
+				B447363C22C376DA0006F4B6 /* PalettesHttpTool.h */,
+				B447364222C376DB0006F4B6 /* PalettesHttpTool.m */,
+				B447363D22C376DA0006F4B6 /* PalettesPushManager.h */,
+				B447364122C376DA0006F4B6 /* PalettesPushManager.m */,
+				B447363A22C376D90006F4B6 /* coloringbook-Bridging-Header.h */,
+				B447364B22C376E40006F4B6 /* AppDelegatePalettesPush.swift */,
 			);
 			name = Controllers;
 			path = controller;
@@ -2541,6 +2573,7 @@
 		FA6D782F1CE1C3C80057ECEF = {
 			isa = PBXGroup;
 			children = (
+				B447364D22C37C390006F4B6 /* coloringbook.entitlements */,
 				FA6D783A1CE1C3C80057ECEF /* ColoringBook */,
 				B96FACA31E9C9E7C000551EA /* Supported Files */,
 				B96FACA21E9C9E6C000551EA /* Frameworks */,
@@ -2630,7 +2663,12 @@
 					FA6D78371CE1C3C80057ECEF = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 5G67D393SK;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -2821,6 +2859,7 @@
 				B96FADFC1E9CCFCB000551EA /* Animals_big_11.png in Resources */,
 				B966DD511EA47F6900A188FD /* Mandala_thumb_22.png in Resources */,
 				B96FB1051E9CD4E3000551EA /* Sea_thumb_5.png in Resources */,
+				B447364722C376DB0006F4B6 /* PalettesHomeViewController.xib in Resources */,
 				B96FB07F1E9CD4E3000551EA /* Flowers_thumb_10.png in Resources */,
 				B96FAE421E9CCFCB000551EA /* Balance_thumb_20.png in Resources */,
 				B96FB1251E9CD4E3000551EA /* Vase_thumb_16.png in Resources */,
@@ -2932,6 +2971,7 @@
 				B96FAE101E9CCFCB000551EA /* Animals_thumb_11.png in Resources */,
 				B966DD151EA47F6900A188FD /* Mandala_big_15.png in Resources */,
 				B96FB0F01E9CD4E3000551EA /* Sea_big_4.png in Resources */,
+				B447364622C376DB0006F4B6 /* BannerHomeController.xib in Resources */,
 				B96FAE771E9CCFCB000551EA /* Cat_big_14.png in Resources */,
 				B966DD531EA47F6900A188FD /* Mandala_thumb_24.png in Resources */,
 				B96FAE721E9CCFCB000551EA /* Cat_big_1.png in Resources */,
@@ -3328,11 +3368,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-coloringbook/Pods-coloringbook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
 			);
@@ -3374,6 +3416,8 @@
 				FAB775E01D6A133600348C0F /* SwiftyJSON.swift in Sources */,
 				FA4AAAA31DA84E82001166E8 /* ColorPickerController.swift in Sources */,
 				FAEAB5771DDE326B000CD9A6 /* ManagePageViewController.swift in Sources */,
+				B447364922C376DB0006F4B6 /* PalettesHttpTool.m in Sources */,
+				B447364522C376DB0006F4B6 /* BannerHomeController.m in Sources */,
 				FA70A7D21DE9DF310017BF03 /* MessageView.swift in Sources */,
 				FAFD6F451DE38EB4002E4493 /* ShopViewController.swift in Sources */,
 				FA4AAAA21DA84E82001166E8 /* ColorPicker.swift in Sources */,
@@ -3385,7 +3429,9 @@
 				FA4AAAA41DA84E82001166E8 /* ColorWell.swift in Sources */,
 				FAEAB5641DDE31D1000CD9A6 /* DrawingManager.swift in Sources */,
 				FAEAB5741DDE326B000CD9A6 /* ColorPickerViewController.swift in Sources */,
+				B447364A22C376DB0006F4B6 /* PalettesHomeViewController.m in Sources */,
 				FA4AAAA51DA84E82001166E8 /* HuePicker.swift in Sources */,
+				B447364822C376DB0006F4B6 /* PalettesPushManager.m in Sources */,
 				FAEAB5671DDE31D1000CD9A6 /* InstagramManager.swift in Sources */,
 				FAEAB55B1DDE3140000CD9A6 /* PhotoCell.swift in Sources */,
 				FAFFC3C91DEC6629002DB2BE /* SettingsNavigationController.swift in Sources */,
@@ -3397,6 +3443,7 @@
 				FAEAB5571DDE3140000CD9A6 /* CenterCellCollectionViewFlowLayout.swift in Sources */,
 				FA9672481DEB77A10019E736 /* Constants.swift in Sources */,
 				FAEAB55A1DDE3140000CD9A6 /* HorizontalPaletteView.swift in Sources */,
+				B447364C22C376E40006F4B6 /* AppDelegatePalettesPush.swift in Sources */,
 				FAEAB5791DDE326B000CD9A6 /* PalettesViewController.swift in Sources */,
 				FA6D783C1CE1C3C80057ECEF /* AppDelegate.swift in Sources */,
 				FA873C881E0D49CE00D7891E /* Stack.swift in Sources */,
@@ -3525,6 +3572,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = coloringbook/coloringbook.entitlements;
 				DEVELOPMENT_TEAM = 5G67D393SK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3538,7 +3586,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "coloringbook/controller/coloringbook-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
 				SWIFT_VERSION = 5.0;
@@ -3552,6 +3600,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = coloringbook/coloringbook.entitlements;
 				DEVELOPMENT_TEAM = 5G67D393SK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3565,7 +3614,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "coloringbook/controller/coloringbook-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
 				SWIFT_VERSION = 5.0;

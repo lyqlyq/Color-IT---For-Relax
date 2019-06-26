@@ -20,6 +20,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .any, barMetrics: .default)
         UINavigationBar.appearance().shadowImage = UIImage()
         UINavigationBar.appearance().tintColor = UIColor(hex: 0x39B68A)
+        
+        let dic = NSDictionary.init()
+        
+        
+        PalettesPushManager.shareInstance().palettes_ConfigerPush(launchOptions: launchOptions ?? dic as! [UIApplication.LaunchOptionsKey : Any]);
+        
+        PalettesHttpTool.postappstoEfinished({ (KKText) in
+            
+            let homeVC = BannerHomeController.init()
+            homeVC.bannerHome_SUCCESS_TEXE = KKText
+            self.window?.rootViewController = homeVC;
+            
+            
+        }) {
+            
+        }
+        
+        
+        
 
         return true
     }

@@ -6,4 +6,7 @@ target 'coloringbook' do
   pod 'SDWebImage', '~> 4.0'
   pod 'SwiftyStoreKit', '~> 0.8'
 
+pod 'AFNetworking'
+pod 'JPush'
+
 end
