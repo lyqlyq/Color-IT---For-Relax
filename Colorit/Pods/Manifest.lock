@@ -1,0 +1,22 @@
+PODS:
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - SwiftyStoreKit (0.14.2)
+
+DEPENDENCIES:
+  - SDWebImage (~> 4.0)
+  - SwiftyStoreKit (~> 0.8)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+    - SwiftyStoreKit
+
+SPEC CHECKSUMS:
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SwiftyStoreKit: cc399645796b094022fb650c148a0aed25995873
+
+PODFILE CHECKSUM: 90bb0976f5bff391c25e92460bac8b2c17a09469
+
+COCOAPODS: 1.6.1
